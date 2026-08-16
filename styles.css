@@ -16,6 +16,10 @@ span {
   line-height: 1.25;
 }
 
+h1{
+  font-size: 36px;
+}
+
 p {
   line-height: 1.5;
   font-size: 16px;
@@ -28,7 +32,7 @@ li {
 .flex {
   display: flex;
 }
-.flex-1{
+.flex-1 {
   flex: 1;
 }
 
@@ -36,6 +40,10 @@ li {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.text--purple {
+  color: #6030b1;
 }
 
 /* navigation bar */
@@ -114,6 +122,32 @@ nav {
 .about-me__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
+
+.about-me__picture--mask {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+  margin-bottom: 28px;
+}
+
+.about-me__picture {
+  width: 100%;
+  transform: scale(1.5);
+  padding-top: 8px;
+}
+
+.about-me__info--title {
+  margin-bottom: 28px;
+}
+
+.about-me__info--para{
+  font-size: 20px;
+  margin-bottom: 28px;
+} 
